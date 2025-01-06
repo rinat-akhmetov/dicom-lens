@@ -1,0 +1,15 @@
+[project]
+name = "dicom-format"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.4"
+dependencies = [
+    "anthropic>=0.42.0",
+    "joblib>=1.4.2",
+    "numpy>=2.2.1",
+    "pillow>=11.0.0",
+    "pydicom>=3.0.1",
+    "streamlit>=1.41.1",
+    "tqdm>=4.67.1",
+]
