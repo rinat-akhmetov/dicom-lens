@@ -1,8 +1,8 @@
-# DICOM Format Project
+# Ultrasound-Lens
 
 ## Overview
 
-Quickly convert DICOM images to JPG and run analysis with an AI model.
+Converts ultrasound DICOM images to JPG and runs AI (LLM) analysis of the resulting images, summarizing findings in a streamlined workflow
 
 ## Installation
 
@@ -23,3 +23,9 @@ You can also use uv to manage or run this project. For instance:
    - python main.py
 2. Enter the DICOM folder path in the UI.
 3. Click "Process" to convert and analyze images.
+
+## Additional Information
+
+- Images are converted and saved in the "ultrasound_images" folder by default.
+- You can also run Streamlit directly with:  
+  streamlit run main.py
